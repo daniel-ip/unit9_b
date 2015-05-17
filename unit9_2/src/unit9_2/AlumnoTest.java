@@ -4,6 +4,11 @@ package unit9_2;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Pruebas de la clase Alumno
+ * @author Daniel Íñigo Pérez
+ * @version 17/05/2015
+ */
 public class AlumnoTest {
 
 	/*************************/
