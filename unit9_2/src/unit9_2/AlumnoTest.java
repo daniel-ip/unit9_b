@@ -40,7 +40,7 @@ public class AlumnoTest {
 		Assert.assertTrue(a.validaNif(dni));	
 	}
 	
-	@Test
+	@Test 
 	public void testValidaNif3_2() {
 		//Retorno final: primera condición falsa
 		Alumno a = new Alumno();
