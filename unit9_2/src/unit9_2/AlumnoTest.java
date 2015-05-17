@@ -3,6 +3,7 @@ package unit9_2;
 
 import org.junit.Assert;
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class AlumnoTest {
 
@@ -72,8 +73,9 @@ public class AlumnoTest {
 		boolean repetidor = false;
 		
 		float tasaDevuelta = a.calculaTasaMatricula(edad, familiaNumerosa, repetidor);
+		float tasaEsperada = 500.00f;
 		
-		Assert.assertEquals()
+		Assert.assertEquals(tasaEsperada, tasaDevuelta);
 	}
 
 
