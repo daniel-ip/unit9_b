@@ -23,6 +23,7 @@ public class AlumnoTest {
 		Assert.assertFalse(a.validaNif(dni));		
 	}
 	
+	
 	@Test
 	public void testValidaNif2() {
 		//Comprueba que no pasa del Catch
@@ -55,9 +56,11 @@ public class AlumnoTest {
 		Assert.assertFalse(a.validaNif(dni));	
 	}
 	
+	
 	/***********************************/
 	/**   Test calculaTasaMatricula   **/
 	/***********************************/
+	
 	
 	@Test
 	public void testCalculaTasaMatricula1(){
@@ -104,6 +107,7 @@ public class AlumnoTest {
 		
 		Assert.assertEquals(tasaEsperada, tasaDevuelta, 0.00f);
 	}
+	
 	@Test
 	public void testCalculaTasaMatricula4(){
 		//La segunda condición dell primer if dentro del else es cierto
@@ -149,5 +153,5 @@ public class AlumnoTest {
 		Assert.assertEquals(tasaEsperada, tasaDevuelta, 0.00f);
 	}
 	
-
+	
 }
